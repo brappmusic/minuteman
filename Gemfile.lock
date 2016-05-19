@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     minuteman (1.0.4)
-      redis (~> 3.2.1)
+      redis (~> 3.2, >= 3.2.1)
 
 GEM
   remote: http://rubygems.org/
@@ -13,8 +13,8 @@ GEM
     minitest-given (3.0.0)
       given_core (= 3.0.0)
       minitest (> 4.3)
-    rake (10.4.2)
-    redis (3.2.1)
+    rake (11.1.2)
+    redis (3.3.0)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
     sorcerer (1.0.2)
@@ -28,3 +28,6 @@ DEPENDENCIES
   minuteman!
   rake
   redis-namespace (~> 1.5.2)
+
+BUNDLED WITH
+   1.12.4
