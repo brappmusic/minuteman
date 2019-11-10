@@ -10,9 +10,9 @@ Gem::Specification.new do |s|
   s.files             = `git ls-files`.split("\n")
   s.test_files        = `git ls-files test`.split("\n")
 
-  s.add_dependency("redis", "~> 3.2", ">= 3.2.1")
+  s.add_dependency("redis", "~> 4.1.0")
 
-  s.add_development_dependency("minitest",        "~> 4.3.0")
-  s.add_development_dependency("minitest-given",  "~> 3.0.0")
-  s.add_development_dependency("redis-namespace", "~> 1.5.2")
+  s.add_development_dependency("minitest",        "~> 5.13.0")
+  s.add_development_dependency("minitest-given",  "~> 3.8.0")
+  s.add_development_dependency("redis-namespace", "~> 1.6.0")
 end
