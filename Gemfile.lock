@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    minuteman (1.0.6)
+    minuteman (1.0.7)
       redis (~> 4.1.0)
 
 GEM
