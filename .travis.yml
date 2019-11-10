@@ -8,3 +8,4 @@ rvm:
 services:
   - "redis-server"
 sudo: false
+cache: bundler
